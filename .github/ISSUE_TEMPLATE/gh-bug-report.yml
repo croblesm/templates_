@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         ## Thank you for taking the time to report a bug!
-        Please provide as much detail as possible to help us reproduce and fix the issue.
+        Please provide as much detail as possible (screenshots, screen recordings, logs) to help us reproduce and fix the issue.
 
   # Section for describing the issue
   - type: textarea
@@ -21,6 +21,7 @@ body:
       placeholder: |
         Expected GitHub Copilot to suggest valid output...
         But the suggestion was incorrect or not aligned with the prompt.
+        Paste or drag and drop screenshots or recordings that show the bug.
     validations:
       required: true
 
@@ -56,12 +57,27 @@ body:
         - label: Testing and mock data assistant
         - label: Other (please describe below)
 
-  # Section for attaching screenshots or videos
   - type: textarea
-    id: screenshots
+    id: other-affected-area
     attributes:
-      label: Screenshots or Videos
-      description: Paste or drag and drop screenshots or recordings that show the bug.
+      label: If you selected "Other", please describe the affected area
+      description: Only fill this if you selected "Other" above.
+      placeholder: Describe the affected area here...
+    validations:
+      required: false
+
+  # Section for providing environment details
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Information
+      description: Add versions and environment details below.
+      placeholder: |
+        • MSSQL Extension Version:
+        • VS Code Version:
+        • GitHub Copilot Version:
+        • Operating System:
+        • Connected database:
 
   # Section for rating the Copilot's response
   - type: checkboxes
@@ -76,19 +92,6 @@ body:
         - label: Unhelpful
         - label: Bad
         - label: Fix ASAP
-
-  # Section for providing environment details
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment Information
-      description: Add versions and environment details below.
-      placeholder: |
-        • MSSQL Extension Version:
-        • VS Code Version:
-        • GitHub Copilot Version:
-        • Operating System:
-        • Connected database:
 
   # Section for confirming issue search and willingness to work on the issue
   - type: checkboxes
