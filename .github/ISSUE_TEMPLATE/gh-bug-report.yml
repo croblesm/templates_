@@ -93,7 +93,7 @@ body:
         - label: Fix ASAP
 
   # Section for rating the Copilot's response
-  - type: dropdown
+  - type: radio
     id: copilot-rating-v2
     attributes:
       label: Rate the answer provided by GitHub Copilot (Optional)
