@@ -93,14 +93,22 @@ body:
         - label: Fix ASAP
 
   # Section for rating the Copilot's response
-  - type: slider
+  - type: dropdown
     id: copilot-rating
     attributes:
       label: Rate the answer provided by GitHub Copilot (Optional)
-      description: Rate on a scale of 1-10 how useful you found the response.
-      min: 1
-      max: 10
-      step: 1
+      description: Select a rating from 1 to 10 to indicate how useful you found the response.
+      options:
+        - label: 1
+        - label: 2
+        - label: 3
+        - label: 4
+        - label: 5
+        - label: 6
+        - label: 7
+        - label: 8
+        - label: 9
+        - label: 10
 
   # Section for confirming issue search and willingness to work on the issue
   - type: checkboxes
