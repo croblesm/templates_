@@ -93,11 +93,12 @@ body:
         - label: Fix ASAP
 
   # Section for rating the Copilot's response
+  # Section for rating the Copilot's response
   - type: dropdown
     id: copilot-rating-v2
     attributes:
       label: Rate the answer provided by GitHub Copilot (Optional)
-      description: Select a rating from 1 to 10 to indicate how useful you found the response.
+      description: Select the option that best describes how useful you found the response.
       options:
         - Amazing
         - Helpful
