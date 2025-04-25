@@ -70,20 +70,19 @@ body:
   - type: textarea
     id: environment
     attributes:
-      label: Environment Information
+      label: Environment Information (Optional)
       description: Add versions and environment details below.
       placeholder: |
-        • MSSQL Extension Version:
         • VS Code Version:
+        • MSSQL Extension Version:
         • GitHub Copilot Version:
         • Operating System:
-        • Connected database:
 
   # Section for rating the Copilot's response
   - type: checkboxes
     id: copilot-rating
     attributes:
-      label: Rate the answer provided by GitHub Copilot
+      label: Rate the answer provided by GitHub Copilot (Optional)
       description: Select all that apply.
       options:
         - label: Amazing
