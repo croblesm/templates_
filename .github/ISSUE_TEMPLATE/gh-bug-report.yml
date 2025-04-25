@@ -94,7 +94,7 @@ body:
 
   # Section for rating the Copilot's response
   - type: dropdown
-    id: copilot-rating
+    id: copilot-rating-v2
     attributes:
       label: Rate the answer provided by GitHub Copilot (Optional)
       description: Select a rating from 1 to 10 to indicate how useful you found the response.
