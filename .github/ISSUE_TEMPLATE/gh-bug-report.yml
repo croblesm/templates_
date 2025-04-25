@@ -1,4 +1,4 @@
-name: Bug Report - GitHub Copilot MSSQL Extension for VS Code
+name: Bug Report - GitHub Copilot integration
 description: File a bug report to help us improve GitHub Copilot integration for the MSSQL extension.
 title: "[GitHub Copilot - Bug]: "
 labels: ["bug", "PrPr", "Area - GitHub Copilot", "Triage: Needed"]
