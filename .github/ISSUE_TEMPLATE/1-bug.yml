@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug Report - MSSQL Extension for VS Code
 description: File a bug report to help us improve the MSSQL extension.
 title: "[Bug]: "
 labels: ["bug", "Triage: Needed", "User-filed"]
